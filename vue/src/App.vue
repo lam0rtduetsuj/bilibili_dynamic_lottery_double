@@ -11,11 +11,13 @@ import { useProvideModalOptions } from '@/provide/use-provide-modal-options'
 import { useProvideLoginOptions } from '@/provide/use-provice-login-options'
 import { useProvideFormOptions } from './provide/use-form-options'
 import { useProvideListOptions } from './provide/use-provice-list-options'
+import { useProvideMergeOptions } from '@/provide/use-provide-merge-options'
 
 useProvideModalOptions();
 useProvideLoginOptions();
 useProvideFormOptions();
 useProvideListOptions();
+useProvideMergeOptions();
 
 </script>
 

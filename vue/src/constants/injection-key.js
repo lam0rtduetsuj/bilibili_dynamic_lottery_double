@@ -10,6 +10,11 @@ const INJECTION_KEY = {
     LOGIN_MODAL_OPTIONS: 'login_modal_options',
     SHOW_LOGIN_MODAL: 'show_login_modal',
 
+    MERGE_CTX: Symbol('MERGE_CTX'),
+    // 第二条链接（用于展示二号详情 & 评论定位）
+    VIDEO_ID_2: 'video_id_2',
+    VIDEO_DETAIL_2: 'video_detail_2',
+    VIDEO_URL_2: 'video_url_2',
 
     //标记用户是否已登陆
     IS_LOGGED: 'is_logged',
